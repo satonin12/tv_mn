@@ -1,0 +1,166 @@
+@import "//fonts.fontstorage.com/import/gilroy.css";
+body{
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  width: 1440px;
+}
+.container{
+  max-width: 1140px;
+  margin: auto;
+}
+.header{
+  margin: auto;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  padding-top: 60px;
+  margin-bottom: 90px;
+}
+.logo{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 33px;
+  margin-top: 23px;
+}
+.logo-point{
+  color: #FF5B5B;
+}
+.menu-list{
+  margin-top: 30px;
+}
+.menu-link{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  margin-left: 35px;
+  color: #000000;
+}
+.icons-menu{
+  margin-top: 28px;
+}
+.icons-link{
+  margin-left: 40px;
+}
+
+#basket{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+.basket-duo{
+
+  margin-left: 5px;
+  text-decoration: none;
+}
+.basket-sum{
+  display: flex;
+  flex-direction: row;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  text-decoration: none;
+  color: #000000;
+}
+
+#slide1{
+  background: url('../img/background-slide1.svg')  100% 0 no-repeat;
+  height: 566px;
+  width: 1440px;
+  margin: 0px;
+  background-size: cover;
+  background-color: #FFDBDE;
+}
+.main-content{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: row;
+  /* float: left; */
+  margin-left: 138px;
+
+}
+.slide1-text{
+  margin-top: 80px;
+}
+.slide1-title{
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 120%;
+  color: #FF5B5B;
+  max-width: 677px;
+}
+button{
+  color: #FFFFFF;
+  background-color: #FF5B5B;
+  border-radius: 30px;
+  width: 265px;
+  height: 50px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin-top: 80px;
+  border: none;
+}
+.slide1-discount{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  color: #FF8F8F;
+  margin-top: 30px;
+}
+.slide1-image {
+  width: 573px;
+  height: 452px;
+  margin-bottom: 0px;
+  /* margin-left: 851px; */
+  margin-right: 16px;
+  margin-top: 114px;
+}
+#slide2{
+  height: 568px;
+  width: 1440px;
+  margin: 0px;
+  background-size: cover;
+}
+#slide3{
+  background: url('../img/image\ 19.svg');
+  height: 436px;
+  width: 1440px;
+  margin: 0px;
+
+  background-size: cover;
+  /* background-color: #FFD8D8; */
+
+  /* opacity: 0.1; */
+
+  /* z-index: 0; */
+}
+.slide3-content{
+
+  background-color: #FFD8D8;
+
+  opacity: 0.3;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* opacity: 0.4; */
+
+  /* z-index: 1; */
+}
